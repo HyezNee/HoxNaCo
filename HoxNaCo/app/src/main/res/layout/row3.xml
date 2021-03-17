@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#EDEDED"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="2dp"
+        android:fontFamily="@font/nanumsquareacr"
+        android:paddingStart="7dp"
+        android:paddingBottom="2dp"
+        android:paddingTop="4dp"
+        android:text="주소"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/memo"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="2dp"
+        android:fontFamily="@font/nanumsquareacr"
+        android:paddingStart="9dp"
+        android:paddingEnd="9dp"
+        android:paddingBottom="3dp"
+        android:layout_marginTop = "2dp"
+        android:text="메모"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/dateTime"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="2dp"
+        android:fontFamily="@font/nanumsquareacr"
+        android:paddingStart="9dp"
+        android:paddingEnd="9dp"
+        android:paddingBottom="3dp"
+        android:text="시간"
+        android:textSize="10sp" />
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyInformFragment"
+    android:gravity="center"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="소  속"
+        android:textSize="18sp"
+        android:fontFamily="@font/nanumsquareacr"
+        android:layout_marginBottom="5dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="건국대학교 컴퓨터공학부"
+        android:textSize="16sp"
+        android:fontFamily="@font/nanumsquareacl"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="학  번"
+        android:textSize="18sp"
+        android:fontFamily="@font/nanumsquareacr"
+        android:layout_marginBottom="5dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="201811224"
+        android:textSize="16sp"
+        android:fontFamily="@font/nanumsquareacl"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="이  름"
+        android:textSize="18sp"
+        android:fontFamily="@font/nanumsquareacr"
+        android:layout_marginBottom="5dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="조 혜 진"
+        android:textSize="16sp"
+        android:fontFamily="@font/nanumsquareacl"
+        android:layout_marginBottom="20dp"/>
+
+</LinearLayout>

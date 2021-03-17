@@ -1,0 +1,1001 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="227dp"
+            android:layout_height="110dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/title2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="국내 코로나 발생 현황"
+            android:textColor="#5E5951"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:fontFamily="@font/nanumsquareacr"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#f07167"
+                app:cardCornerRadius="20dp"
+                android:layout_margin="3dp" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/nanumsquareacr"
+                    android:text="확진환자"
+                    android:textAlignment="center"
+                    android:textColor="#E1E7EA"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/c1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="60dp"
+                    android:text="12602"
+                    android:textAlignment="center"
+                    android:textSize="24dp"
+                    android:textColor="#E1E7EA"
+                    android:fontFamily="@font/nanumsquareacr" />
+
+                <TextView
+                    android:id="@+id/p1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="100dp"
+                    android:text="+ 39 "
+                    android:textAlignment="center"
+                    android:textSize="18dp"
+                    android:textColor="#E1E7EA"
+                    android:fontFamily="@font/nanumsquareacr" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#ffc857"
+                app:cardCornerRadius="20dp"
+                android:layout_margin="3dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/nanumsquareacr"
+                    android:text=" 격리 중 "
+                    android:textAlignment="center"
+                    android:textColor="#5F6183"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/c2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="60dp"
+                    android:text="1148"
+                    android:textAlignment="center"
+                    android:textSize="24dp"
+                    android:textColor="#5F6183"
+                    android:fontFamily="@font/nanumsquareacr" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#80ed99"
+                app:cardCornerRadius="20dp"
+                android:layout_margin="3dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/nanumsquareacr"
+                    android:text="격리해제"
+                    android:textAlignment="center"
+                    android:textColor="#775770"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/c3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="60dp"
+                    android:text="11172"
+                    android:textAlignment="center"
+                    android:textSize="24dp"
+                    android:textColor="#775770"
+                    android:fontFamily="@font/nanumsquareacr" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#62929e"
+                app:cardCornerRadius="20dp"
+                android:layout_margin="3dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/nanumsquareacr"
+                    android:text="　사망　"
+                    android:textAlignment="center"
+                    android:textColor="#DFDDC7"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/c4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="60dp"
+                    android:text="282"
+                    android:textAlignment="center"
+                    android:textSize="24dp"
+                    android:textColor="#DFDDC7"
+                    android:fontFamily="@font/nanumsquareacr" />
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="시·도별 격리 환자 동향"
+           android:textColor="#5E5951"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:fontFamily="@font/nanumsquareacr"
+            android:textStyle="bold"
+            android:layout_marginTop="45dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/koreaImg"
+                android:layout_width="match_parent"
+                android:layout_height="563dp"
+                android:padding="30dp"
+                android:src="@drawable/koreamap" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true" >
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="51dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginTop="104dp"
+                    android:layout_weight="1"
+                    app:cardBackgroundColor="#E9F3F2"
+                    app:cardCornerRadius="20dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TextView
+                        android:id="@+id/r1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:fontFamily="@font/nanumsquareacr"
+                        android:text="서울"
+                        android:textAlignment="center"
+                        android:textColor="#434343"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/rp1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/nanumsquareacr"
+                        android:text="+ 0 "
+                        android:textAlignment="center"
+                        android:textColor="#434343"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/rs1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="35dp"
+                        android:layout_marginBottom="3dp"
+                        android:fontFamily="@font/nanumsquareacr"
+                        android:text="0000"
+                        android:textAlignment="center"
+                        android:textColor="#434343"
+                        android:textSize="10sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="51dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginTop="44dp"
+                    android:layout_weight="1"
+                    app:cardBackgroundColor="#E9F3F2"
+                    app:cardCornerRadius="20dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TextView
+                        android:id="@+id/r2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:fontFamily="@font/nanumsquareacr"
+                        android:text="경기"
+                        android:textAlignment="center"
+                        android:textColor="#434343"
+                        android:textSize="10sp" />
+                    <TextView
+                        android:id="@+id/rp2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/nanumsquareacr"
+                        android:text="+ 0 "
+                        android:textAlignment="center"
+                        android:textColor="#434343"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:id="@+id/rs2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="35dp"
+                        android:layout_marginBottom="3dp"
+                        android:fontFamily="@font/nanumsquareacr"
+                        android:text="0000"
+                        android:textAlignment="center"
+                        android:textColor="#434343"
+                        android:textSize="10sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="51dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="84dp"
+                    android:layout_weight="1"
+                    app:cardBackgroundColor="#E9F3F2"
+                    app:cardCornerRadius="20dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TextView
+                        android:id="@+id/r3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:fontFamily="@font/nanumsquareacr"
+                        android:text="인천"
+                        android:textAlignment="center"
+                        android:textColor="#434343"
+                        android:textSize="10sp" />
+                    <TextView
+                        android:id="@+id/rp3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/nanumsquareacr"
+                        android:text="+ 0 "
+                        android:textAlignment="center"
+                        android:textColor="#434343"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:id="@+id/rs3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="35dp"
+                        android:layout_marginBottom="3dp"
+                        android:fontFamily="@font/nanumsquareacr"
+                        android:text="0000"
+                        android:textAlignment="center"
+                        android:textColor="#434343"
+                        android:textSize="10sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="51dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="225dp"
+                    android:layout_marginTop="74dp"
+                    android:layout_weight="1"
+                    app:cardBackgroundColor="#E9F3F2"
+                    app:cardCornerRadius="20dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TextView
+                        android:id="@+id/r4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:fontFamily="@font/nanumsquareacr"
+                        android:text="강원"
+                        android:textAlignment="center"
+                        android:textColor="#434343"
+                        android:textSize="10sp" />
+                    <TextView
+                        android:id="@+id/rp4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/nanumsquareacr"
+                        android:text="+ 0 "
+                        android:textAlignment="center"
+                        android:textColor="#434343"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:id="@+id/rs4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="35dp"
+                        android:layout_marginBottom="3dp"
+                        android:fontFamily="@font/nanumsquareacr"
+                        android:text="0000"
+                        android:textAlignment="center"
+                        android:textColor="#434343"
+                        android:textSize="10sp" />
+                </androidx.cardview.widget.CardView>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="51dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="190dp"
+                android:layout_marginTop="144dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#E9F3F2"
+                app:cardCornerRadius="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/r5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:fontFamily="@font/nanumsquareacr"
+                    android:text="충북"
+                    android:textAlignment="center"
+                    android:textColor="#434343"
+                    android:textSize="10sp" />
+                <TextView
+                    android:id="@+id/rp5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/nanumsquareacr"
+                    android:text="+ 0 "
+                    android:textAlignment="center"
+                    android:textColor="#434343"
+                    android:textSize="12sp" />
+                <TextView
+                    android:id="@+id/rs5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginBottom="3dp"
+                    android:fontFamily="@font/nanumsquareacr"
+                    android:text="0000"
+                    android:textAlignment="center"
+                    android:textColor="#434343"
+                    android:textSize="10sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="51dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="204dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#E9F3F2"
+                app:cardCornerRadius="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/r6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:fontFamily="@font/nanumsquareacr"
+                    android:text="충남"
+                    android:textAlignment="center"
+                    android:textColor="#434343"
+                    android:textSize="10sp" />
+                <TextView
+                    android:id="@+id/rp6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/nanumsquareacr"
+                    android:text="+ 0 "
+                    android:textAlignment="center"
+                    android:textColor="#434343"
+                    android:textSize="12sp" />
+                <TextView
+                    android:id="@+id/rs6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginBottom="3dp"
+                    android:fontFamily="@font/nanumsquareacr"
+                    android:text="0000"
+                    android:textAlignment="center"
+                    android:textColor="#434343"
+                    android:textSize="10sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="51dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="140dp"
+                android:layout_marginTop="204dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#E9F3F2"
+                app:cardCornerRadius="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/r7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:fontFamily="@font/nanumsquareacr"
+                    android:text="대전"
+                    android:textAlignment="center"
+                    android:textColor="#434343"
+                    android:textSize="10sp" />
+                <TextView
+                    android:id="@+id/rp7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/nanumsquareacr"
+                    android:text="+ 0 "
+                    android:textAlignment="center"
+                    android:textColor="#434343"
+                    android:textSize="12sp" />
+                <TextView
+                    android:id="@+id/rs7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginBottom="3dp"
+                    android:fontFamily="@font/nanumsquareacr"
+                    android:text="0000"
+                    android:textAlignment="center"
+                    android:textColor="#434343"
+                    android:textSize="10sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="51dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="125dp"
+                android:layout_marginTop="154dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#E9F3F2"
+                app:cardCornerRadius="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/r8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:fontFamily="@font/nanumsquareacr"
+                    android:text="세종"
+                    android:textAlignment="center"
+                    android:textColor="#434343"
+                    android:textSize="10sp" />
+                <TextView
+                    android:id="@+id/rp8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/nanumsquareacr"
+                    android:text="+ 0 "
+                    android:textAlignment="center"
+                    android:textColor="#434343"
+                    android:textSize="12sp" />
+                <TextView
+                    android:id="@+id/rs8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginBottom="3dp"
+                    android:fontFamily="@font/nanumsquareacr"
+                    android:text="0000"
+                    android:textAlignment="center"
+                    android:textColor="#434343"
+                    android:textSize="10sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="51dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="260dp"
+                android:layout_marginTop="190dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#E9F3F2"
+                app:cardCornerRadius="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/r9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:fontFamily="@font/nanumsquareacr"
+                    android:text="경북"
+                    android:textAlignment="center"
+                    android:textColor="#434343"
+                    android:textSize="10sp" />
+                <TextView
+                    android:id="@+id/rp9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/nanumsquareacr"
+                    android:text="+ 0 "
+                    android:textAlignment="center"
+                    android:textColor="#434343"
+                    android:textSize="12sp" />
+                <TextView
+                    android:id="@+id/rs9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginBottom="3dp"
+                    android:fontFamily="@font/nanumsquareacr"
+                    android:text="0000"
+                    android:textAlignment="center"
+                    android:textColor="#434343"
+                    android:textSize="10sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="51dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="240dp"
+                android:layout_marginTop="260dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#E9F3F2"
+                app:cardCornerRadius="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/r10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:fontFamily="@font/nanumsquareacr"
+                    android:text="대구"
+                    android:textAlignment="center"
+                    android:textColor="#434343"
+                    android:textSize="10sp" />
+                <TextView
+                    android:id="@+id/rp10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/nanumsquareacr"
+                    android:text="+ 0 "
+                    android:textAlignment="center"
+                    android:textColor="#434343"
+                    android:textSize="12sp" />
+                <TextView
+                    android:id="@+id/rs10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginBottom="3dp"
+                    android:fontFamily="@font/nanumsquareacr"
+                    android:text="0000"
+                    android:textAlignment="center"
+                    android:textColor="#434343"
+                    android:textSize="10sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="51dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="190dp"
+                android:layout_marginTop="324dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#E9F3F2"
+                app:cardCornerRadius="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/r11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:fontFamily="@font/nanumsquareacr"
+                    android:text="경남"
+                    android:textAlignment="center"
+                    android:textColor="#434343"
+                    android:textSize="10sp" />
+                <TextView
+                    android:id="@+id/rp11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/nanumsquareacr"
+                    android:text="+ 0 "
+                    android:textAlignment="center"
+                    android:textColor="#434343"
+                    android:textSize="12sp" />
+                <TextView
+                    android:id="@+id/rs11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginBottom="3dp"
+                    android:fontFamily="@font/nanumsquareacr"
+                    android:text="0000"
+                    android:textAlignment="center"
+                    android:textColor="#434343"
+                    android:textSize="10sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="51dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="260dp"
+                android:layout_marginTop="344dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#E9F3F2"
+                app:cardCornerRadius="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/r12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:fontFamily="@font/nanumsquareacr"
+                    android:text="부산"
+                    android:textAlignment="center"
+                    android:textColor="#434343"
+                    android:textSize="10sp" />
+                <TextView
+                    android:id="@+id/rp12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/nanumsquareacr"
+                    android:text="+ 0 "
+                    android:textAlignment="center"
+                    android:textColor="#434343"
+                    android:textSize="12sp" />
+                <TextView
+                    android:id="@+id/rs12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginBottom="3dp"
+                    android:fontFamily="@font/nanumsquareacr"
+                    android:text="0000"
+                    android:textAlignment="center"
+                    android:textColor="#434343"
+                    android:textSize="10sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="51dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="304dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#E9F3F2"
+                app:cardCornerRadius="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/r13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:fontFamily="@font/nanumsquareacr"
+                    android:text="울산"
+                    android:textAlignment="center"
+                    android:textColor="#434343"
+                    android:textSize="10sp" />
+                <TextView
+                    android:id="@+id/rp13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/nanumsquareacr"
+                    android:text="+ 0 "
+                    android:textAlignment="center"
+                    android:textColor="#434343"
+                    android:textSize="12sp" />
+                <TextView
+                    android:id="@+id/rs13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginBottom="3dp"
+                    android:fontFamily="@font/nanumsquareacr"
+                    android:text="0000"
+                    android:textAlignment="center"
+                    android:textColor="#434343"
+                    android:textSize="10sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="51dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="284dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#E9F3F2"
+                app:cardCornerRadius="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/r14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:fontFamily="@font/nanumsquareacr"
+                    android:text="전북"
+                    android:textAlignment="center"
+                    android:textColor="#434343"
+                    android:textSize="10sp" />
+                <TextView
+                    android:id="@+id/rp14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/nanumsquareacr"
+                    android:text="+ 0 "
+                    android:textAlignment="center"
+                    android:textColor="#434343"
+                    android:textSize="12sp" />
+                <TextView
+                    android:id="@+id/rs14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginBottom="3dp"
+                    android:fontFamily="@font/nanumsquareacr"
+                    android:text="0000"
+                    android:textAlignment="center"
+                    android:textColor="#434343"
+                    android:textSize="10sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="51dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="384dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#E9F3F2"
+                app:cardCornerRadius="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/r15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:fontFamily="@font/nanumsquareacr"
+                    android:text="전남"
+                    android:textAlignment="center"
+                    android:textColor="#434343"
+                    android:textSize="10sp" />
+                <TextView
+                    android:id="@+id/rp15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/nanumsquareacr"
+                    android:text="+ 0 "
+                    android:textAlignment="center"
+                    android:textColor="#434343"
+                    android:textSize="12sp" />
+                <TextView
+                    android:id="@+id/rs15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginBottom="3dp"
+                    android:fontFamily="@font/nanumsquareacr"
+                    android:text="0000"
+                    android:textAlignment="center"
+                    android:textColor="#434343"
+                    android:textSize="10sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="51dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="340dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#E9F3F2"
+                app:cardCornerRadius="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/r16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:fontFamily="@font/nanumsquareacr"
+                    android:text="광주"
+                    android:textAlignment="center"
+                    android:textColor="#434343"
+                    android:textSize="10sp" />
+                <TextView
+                    android:id="@+id/rp16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/nanumsquareacr"
+                    android:text="+ 0 "
+                    android:textAlignment="center"
+                    android:textColor="#434343"
+                    android:textSize="12sp" />
+                <TextView
+                    android:id="@+id/rs16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginBottom="3dp"
+                    android:fontFamily="@font/nanumsquareacr"
+                    android:text="0000"
+                    android:textAlignment="center"
+                    android:textColor="#434343"
+                    android:textSize="10sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="51dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="460dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#E9F3F2"
+                app:cardCornerRadius="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/r17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:fontFamily="@font/nanumsquareacr"
+                    android:text="제주"
+                    android:textAlignment="center"
+                    android:textColor="#434343"
+                    android:textSize="10sp" />
+                <TextView
+                    android:id="@+id/rp17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/nanumsquareacr"
+                    android:text="+ 0 "
+                    android:textAlignment="center"
+                    android:textColor="#434343"
+                    android:textSize="12sp" />
+                <TextView
+                    android:id="@+id/rs17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginBottom="3dp"
+                    android:fontFamily="@font/nanumsquareacr"
+                    android:text="0000"
+                    android:textAlignment="center"
+                    android:textColor="#434343"
+                    android:textSize="10sp" />
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+
+        <!--<TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/t11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:background="@drawable/edge"
+                    android:padding="7dp"
+                    android:text="지역"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/nanumsquareacr" />
+
+                <TextView
+                    android:id="@+id/t12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:background="@drawable/edge2"
+                    android:padding="7dp"
+                    android:text="확진환자 (명)"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/nanumsquareacr" />
+            </TableRow>
+
+        </TableLayout>-->
+
+    </LinearLayout>
+
+</ScrollView>

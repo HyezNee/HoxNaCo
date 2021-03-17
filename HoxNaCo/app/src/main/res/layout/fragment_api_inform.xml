@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".APIInformFragment"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:gravity="center">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="전체 · 시도별 확진자 수"
+        android:textSize="18sp"
+        android:fontFamily="@font/nanumsquareacr"
+        android:layout_marginBottom="5dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="공공데이터 API"
+        android:textSize="16sp"
+        android:fontFamily="@font/nanumsquareacl"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="코로나 관련 기사"
+        android:textSize="18sp"
+        android:fontFamily="@font/nanumsquareacr"
+        android:layout_marginBottom="5dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="News API\n( newsapi.org )"
+        android:textSize="16sp"
+        android:fontFamily="@font/nanumsquareacl"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="질병관리본부 보도자료"
+        android:textSize="18sp"
+        android:fontFamily="@font/nanumsquareacr"
+        android:layout_marginBottom="5dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="질본 홈페이지\n( ncov.mohw.go.kr )"
+        android:textSize="16sp"
+        android:fontFamily="@font/nanumsquareacl"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="지도"
+        android:textSize="18sp"
+        android:fontFamily="@font/nanumsquareacr"
+        android:layout_marginBottom="5dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="네이버 맵 API"
+        android:textSize="16sp"
+        android:fontFamily="@font/nanumsquareacl"
+        android:layout_marginBottom="20dp"/>
+
+</LinearLayout>
