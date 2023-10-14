@@ -2,7 +2,7 @@
 ### 혹시, 나도 코로나?!  
 2020 moblie programming personal project   
 
-![img](https://github.com/HyezNee/HoxNaCo/blob/master/%EC%9E%84%EC%8B%9C%20resources/main%20image.jpg){: width="10" height="20"}
+<img src="[https://url/image.png](https://github.com/HyezNee/HoxNaCo/blob/master/%EC%9E%84%EC%8B%9C%20resources/main%20image.png)" width="50" height="100"/>
   
 주요 기능  
 * 일일 확진자수(총합, 시·도별), 격리중 환자 수 등의 정보 제공
